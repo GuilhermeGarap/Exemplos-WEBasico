@@ -1,0 +1,135 @@
+/* Header */
+header {
+    background-color: pink;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>img {
+    width: 100px;
+    height: 100px;
+}
+
+header>p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    color: red;
+}
+
+/* Nav */
+nav>div.esquerda {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+}
+nav>div.esquerda>* {
+    margin-right: 10px;
+}
+
+nav>div.esquerda>p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(140, 0, 0);
+}
+
+nav>div.esquerda>img {
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav>div.direita {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav>div.direita>div {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(140, 0, 0);
+    margin-right: 10px;
+    background-color: rgb(176, 176, 176);
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 15%;
+}
+
+/* Main - parte 1 */
+main>.primeira-parte {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #cdffcd;
+}
+
+main>.primeira-parte>.esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main>.primeira-parte>.esquerda>div>img {
+    width: 50px;
+    height: 50px;
+}
+
+main>.primeira-parte>.esquerda>div {
+    border: 1px black solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5%;
+    background-color: rgb(53, 111, 55);
+    color:white;
+    font-size: 20px;
+}
+main>.primeira-parte>.esquerda>div>p {
+    margin: 5px;
+}
+
+
+
+/* Main - parte 2 */
+main>.segunda-parte {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(175, 231, 255);
+}
+
+.segunda-parte>div {
+    width: 200px;
+    height: 500px;
+    border-radius: 15%;
+    background-color: grey;
+
+    margin: 30px;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.segunda-parte>div>img {
+
+    width: 100px;
+    height: 100px;
+}

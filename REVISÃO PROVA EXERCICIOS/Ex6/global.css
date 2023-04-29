@@ -1,0 +1,25 @@
+th {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+td {
+    font-size: 12px;
+}
+
+td:nth-child(even) {
+    background-color: blue;
+}
+
+th:nth-child(even) {
+    background-color: blue;
+}
+
+tr:nth-child(odd) {
+    background-color: green;
+}
+
+td:hover, th:hover {
+    background-color: red;
+    font-size: 25px;
+}

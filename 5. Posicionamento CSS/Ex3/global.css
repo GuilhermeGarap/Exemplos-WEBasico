@@ -1,0 +1,17 @@
+
+
+    #d {
+        border: 1px black solid;
+        width: 200px;
+        height: 200px;
+    }
+    #d2 {
+        position:relative;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(83, 148, 51);
+        
+        width: 100px;
+        height: 100px;
+    }

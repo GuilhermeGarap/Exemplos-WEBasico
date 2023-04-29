@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex5</title>
+
+    <style>
+
+        ol>li:nth-child(even) {
+            font-size: 15px;
+            color: blue;
+            margin-bottom: 5px;
+
+        }
+
+        ol>li:nth-child(odd) {
+            background-color: green;
+            font-size: 18px;
+            display: inline;
+            margin-bottom: 5px;
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li type="square">Item 1</li>
+            <ol type="1">
+                <li>Subitem 1</li>
+                <li>Subitem 2</li>
+                <li>Subitem 3</li>
+            </ol>
+        <li type="square">Item 2</li>
+            <ol type="A">
+                <li>Subitem 1</li>
+                <li >Subitem 2</li>
+                <li>Subitem 3</li>
+            </ol>
+        <li type="square">Item 3</li>
+            <ol type="A" start="4">
+                <li>Subitem 1</li>
+                <li>Subitem 2</li>
+                <li>Subitem 3</li>
+            </ol>
+        
+    </ul>
+
+    
+</body>
+</html>
+
+<!--
+
+    VERSÃO DO PROFESSOR!
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        ul>li {
+            font-weight: 900;
+        }
+
+        ol>li {
+            font-weight: 400;
+        }
+
+        ol>li:nth-child(2n) {
+            font-size: 15px;
+            color: blue;
+            margin-bottom: 5px;
+        }
+
+        ol>li:nth-child(2n-1) {
+            background-color: green;
+            font-size: 18px;
+            margin-bottom: 5px;
+            width:max-content;
+        }
+    </style>
+    <title>Lista a ser copiada</title>
+</head>
+<body>
+    <ul type="Square">
+        <li>Item 1
+            <ol>
+                <li>Subitem 1</li>
+                <li>Subitem 2</li>
+                <li>Subitem 3</li>
+            </ol>
+        </li>
+        <li>Item 2
+            <ol type="A">
+                <li>Subitem 1</li>
+                <li>Subitem 2</li>
+                <li>Subitem 3</li>
+            </ol>
+        </li>
+        <li>Item 3
+            <ol type="A" start="4">
+                <li>Subitem 1</li>
+                <li>Subitem 2</li>
+                <li>Subitem 3</li>
+            </ol>
+        </li>
+    </ul>
+</body>
+</html>
+
+
+
+
+
+-->
