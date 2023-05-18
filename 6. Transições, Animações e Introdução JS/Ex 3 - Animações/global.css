@@ -1,0 +1,100 @@
+img:nth-child(1) {
+    width: 50px;
+    height: 50px;
+
+
+    /*Chama o keyframe de animação que criamos*/
+    animation-name: passar;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    /*Quantidade de vezes que a animação é reproduzida, delay só serve para a primeira*/
+    animation-iteration-count: infinite;
+    /*Posição que o elemento vai estar no final de sua animação*/
+    animation-fill-mode: backwards;
+}
+
+img:nth-child(2) {
+    width: 50px;
+    height: 50px;
+
+
+    /*Chama o keyframe de animação que criamos*/
+    animation-name: passar;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    /*Quantidade de vezes que a animação é reproduzida, delay só serve para a primeira*/
+    animation-iteration-count: infinite;
+    /*Posição que o elemento vai estar no final de sua animação*/
+    animation-fill-mode: backwards;
+}
+
+img:nth-child(3) {
+    width: 50px;
+    height: 50px;
+
+
+    /*Chama o keyframe de animação que criamos*/
+    animation-name: passar;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    /*Quantidade de vezes que a animação é reproduzida, delay só serve para a primeira*/
+    animation-iteration-count: infinite;
+    /*Posição que o elemento vai estar no final de sua animação*/
+    animation-fill-mode: backwards;
+}
+
+img:nth-child(4) {
+    width: 50px;
+    height: 50px;
+
+
+    /*Chama o keyframe de animação que criamos*/
+    animation-name: passar;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    /*Quantidade de vezes que a animação é reproduzida, delay só serve para a primeira*/
+    animation-iteration-count: infinite;
+    /*Posição que o elemento vai estar no final de sua animação*/
+    animation-fill-mode: backwards;
+}
+
+@keyframes passar {
+    from {
+        position: fixed;
+        left: -50px;
+    }
+
+    to {
+        position: fixed;
+        left: 100vw;
+    }
+}
+
+img:nth-child(2) {
+    width: 50px;
+    height: 50px;
+    transform: scaleX(-1);
+
+
+    /*Chama o keyframe de animação que criamos*/
+    animation-name: passar2;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    /*Quantidade de vezes que a animação é reproduzida, delay só serve para a primeira*/
+    animation-iteration-count: infinite;
+    /*Posição que o elemento vai estar no final de sua animação*/
+    animation-fill-mode: backwards;
+
+}
+
+@keyframes passar2 {
+    from {
+        position: fixed;
+        left: 100vw;
+    }
+
+    to {
+        position: fixed;
+        left: -50px;
+    }
+}

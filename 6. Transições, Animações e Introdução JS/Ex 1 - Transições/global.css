@@ -1,0 +1,24 @@
+div {
+    height: 50px;
+    width: 100px;
+    border: blue solid 1px;
+    background-color: aqua;
+    border-radius: 2.5px;
+
+    transition-property: background-color, border-color;
+    transition-delay: 0.5s;
+    transition-duration: 2s, 1s;
+}
+
+div:hover {
+    background-color:aquamarine;
+    border-color: green;
+    border-width: 1px;
+    transition-duration: 1s;
+}
+
+div:active {
+    background-color: brown;
+    border-color: darkred;
+    transition-duration: 3s;
+}

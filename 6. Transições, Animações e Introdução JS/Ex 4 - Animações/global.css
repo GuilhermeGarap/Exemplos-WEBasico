@@ -1,0 +1,30 @@
+div {
+    border: 1px solid rgb(90, 54, 54);
+    background-color: darksalmon;
+    width: 500px;
+    height: 25px;
+}
+
+div>div {
+    border: none;
+    background-color: green;
+    width: 1px;
+    height: 25px;
+
+    animation-name: passar2;
+    animation-duration: 5s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes passar2 {
+    0% {
+        position: absolute;
+    }
+
+    100% {
+        position: absolute;
+        width: 501px;
+    }
+}

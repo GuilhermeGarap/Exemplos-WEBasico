@@ -1,0 +1,25 @@
+div:nth-child(1) {
+    height: 30px;
+    width: 70px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+div:nth-child(2) {
+    border: hidden green;
+    width: 0px;
+    height: 0px;
+
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+div:nth-child(1):hover + div {
+
+    position: relative;
+    top: 9px;
+    border: 1px solid green;
+    width: 1000px;
+    height: 400px;
+}
